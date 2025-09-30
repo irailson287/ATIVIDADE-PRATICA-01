@@ -18,18 +18,69 @@ justify-content: center;
 }
 
 .div-01-section-01{
-
-    background-color: #88d3ab;
+ background-color: #88d3ab;
 width:500px ;
 height: 50px; ;
 }
 
-.div-01-section-03 img {
-width: 400px;
-
-
-
+.section-03 {
+display: flex;
+justify-content: center;
+align-items: center;
+gap:5px;
 }
+
+.div-01-section-03 {
+    background-image: url(plum-3585228_1280.jpg);
+    padding: 5px;
+    width: 550px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+gap: 5px;
+align-items: center;
+}
+
+.div-02-section-03 {
+background-image: url(flowers-1374297_1280.jpg);  
+width: 500px; 
+height: 460px; 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.div-03-section-03 {
+background-image: url(cactus-5203831_1280.jpg);
+width: 500px; 
+height: 460px; 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.div-04-section-03 {
+ background-image: url(kauri-76_1280.jpg); 
+ width: 500px; 
+height: 460px; 
+display: flex;
+align-items: center;
+justify-content: center;
+background-repeat: no-repeat;  
+background-position: center;
+background-size: cover;
+}
+
+
+
+.section-03 h3 {
+    font-size: 70px;
+}
+
+
+
+
+
 
 
  
