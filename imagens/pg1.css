@@ -1,0 +1,35 @@
+header{
+background-image: url(girl-8351533_1280.jpg);
+width: ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 40px;
+background-position: center;
+background-attachment: fixed;
+font-size: 30px;
+}
+
+.section-01{
+ background-color: #88d3ab;
+display: flex;
+justify-content: center;
+
+}
+
+.div-01-section-01{
+
+    background-color: #88d3ab;
+width:500px ;
+height: 50px; ;
+}
+
+.div-01-section-03 img {
+width: 400px;
+
+
+
+}
+
+
+ 
