@@ -77,9 +77,49 @@ background-size: cover;
     font-size: 70px;
 }
 
+.section-04 {
+
+display: flex;    
+justify-content: center;
+align-items: center;
+
+}
 
 
 
+
+
+
+.div-01-section-04 {
+
+
+background-image: url(paisagismo.jpg);
+width: 450px; 
+height: 400px; 
+display: flex;
+align-items: center;
+justify-content: center;
+background-repeat: no-repeat;  
+background-position: center;
+background-size: cover;
+font-size: 50px;
+}
+
+.div-02-section-04 {
+
+background-image: url(fertilizante.jpg);
+width: 450px; 
+height: 400px; 
+display: flex;
+align-items: center;
+justify-content: center;
+background-repeat: no-repeat;  
+background-position: center;
+background-size: cover;
+font-size: 50px;
+
+
+}
 
 
 
