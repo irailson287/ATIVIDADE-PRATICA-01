@@ -15,6 +15,9 @@ color:#29ffc9;
 width: 120px;
 background-color: #29ffc9;
 }
+.div-02-header {
+    
+}
 
 .section-01{
  background-color: #88d3ab;
@@ -33,7 +36,7 @@ align-items: center;
 .section-1-1 button:hover {
 
 
-background-color: #71cbc4;
+background-color:#29ffc9;
 box-shadow: 5px 5px 10px;
 transition: 0.8s;
 }
@@ -61,6 +64,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap:55px;
+color: beige;
 }
 
 .div-01-section-03 {
@@ -72,6 +76,7 @@ gap:55px;
     justify-content: center;
 gap: 5px;
 align-items: center;
+border-radius: 40px;
 }
 
 .div-02-section-03 {
@@ -81,6 +86,7 @@ height: 460px;
 display: flex;
 align-items: center;
 justify-content: center;
+border-radius: 40px;
 }
 
 .div-03-section-03 {
@@ -90,6 +96,7 @@ height: 460px;
 display: flex;
 align-items: center;
 justify-content: center;
+border-radius: 40px;
 }
 
 .div-00-section-04 {
@@ -102,6 +109,7 @@ justify-content: center;
 background-repeat: no-repeat;  
 background-position: center;
 background-size: cover;
+border-radius: 40px;
 }
 
 
@@ -116,6 +124,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 55px;
+color: beige;
 }
 
 .section-04 h3 {
@@ -139,6 +148,7 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 font-size: 50px;
+border-radius: 40px;
 }
 
 .div-02-section-04 {
@@ -153,6 +163,7 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 font-size: 50px;
+border-radius: 40px;
 }
 
 .section-05 {
@@ -165,7 +176,7 @@ align-items: center;
 
 .inp-cdt-section-05 {
 
-background-color: #88d3ab;
+background-color:#29ffc9;
 
 
 
@@ -180,9 +191,54 @@ flex-direction: column;
 
 .span-01 {
 
-text-transform: uppercase;
-background-color: #29ffc9;
+
+color: #29ffc9;
 font-size: 20px;
+}
+
+.span-01:hover{
+
+background-color: black;
+text-transform: uppercase;
+transition: 0.8s;
+
+}
+
+.div-01-section-03:hover {
+
+    background-color:;
+box-shadow: 15px 15px 30px #29ffc9;
+transition:0.8s ;
+}
+
+.div-02-section-03:hover {
+
+    background-color:;
+box-shadow: 15px 15px 30px #29ffc9;
+transition:0.8s ;
+}
+.div-03-section-03:hover {
+       background-color:;
+box-shadow: 15px 15px 30px #29ffc9;
+transition:0.8s ;
+}
+
+.div-00-section-04 :hover{
+  background-color:;
+box-shadow: 15px 15px 30px #29ffc9;
+transition:0.8s ;
+}
+
+.div-01-section-04 :hover {
+  background-color:;
+box-shadow: 15px 15px 30px #29ffc9;
+transition:0.8s ;
+
+}
+.div-02-section-04 :hover {
+      background-color:;
+box-shadow: 15px 15px 30px #29ffc9;
+transition:0.8s ;
 }
 
 
