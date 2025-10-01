@@ -8,12 +8,12 @@ padding: 40px;
 background-position: center;
 background-attachment: fixed;
 font-size: 30px;
-color:#2e4b2e;
+color:#29ffc9;
 }
 .div-01-header img {
 
 width: 120px;
-
+background-color: #29ffc9;
 }
 
 .section-01{
@@ -60,13 +60,13 @@ height: 50px; ;
 display: flex;
 justify-content: center;
 align-items: center;
-gap:5px;
+gap:55px;
 }
 
 .div-01-section-03 {
     background-image: url(plum-3585228_1280.jpg);
     padding: 5px;
-    width: 550px;
+    width: 350px;
     height: 450px;
     display: flex;
     justify-content: center;
@@ -76,7 +76,7 @@ align-items: center;
 
 .div-02-section-03 {
 background-image: url(flowers-1374297_1280.jpg);  
-width: 500px; 
+width: 350px; 
 height: 460px; 
 display: flex;
 align-items: center;
@@ -85,7 +85,7 @@ justify-content: center;
 
 .div-03-section-03 {
 background-image: url(cactus-5203831_1280.jpg);
-width: 500px; 
+width: 350px; 
 height: 460px; 
 display: flex;
 align-items: center;
@@ -94,8 +94,8 @@ justify-content: center;
 
 .div-00-section-04 {
  background-image: url(kauri-76_1280.jpg); 
- width: 500px; 
-height: 460px; 
+ width: 350px; 
+height: 400px; 
 display: flex;
 align-items: center;
 justify-content: center;
@@ -107,7 +107,7 @@ background-size: cover;
 
 
 .section-03 h3 {
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .section-04 {
@@ -115,10 +115,13 @@ background-size: cover;
 display: flex;    
 justify-content: center;
 align-items: center;
-
+gap: 55px;
 }
 
+.section-04 h3 {
 
+    font-size: 40px;
+} 
 
 
 
@@ -127,7 +130,7 @@ align-items: center;
 
 
 background-image: url(gardens-mexico-2073360_1280.jpg);
-width: 450px; 
+width: 350px; 
 height: 400px; 
 display: flex;
 align-items: center;
@@ -141,7 +144,7 @@ font-size: 50px;
 .div-02-section-04 {
 
 background-image: url(pexels-teona-swift-6913399.jpg);
-width: 450px; 
+width: 350px; 
 height: 400px; 
 display: flex;
 align-items: center;
@@ -152,12 +155,36 @@ background-size: cover;
 font-size: 50px;
 }
 
+.section-05 {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.inp-cdt-section-05 {
+
+background-color: #88d3ab;
+
+
+
+}
 
 .div-02-section-05{
 
 display: flex;
 flex-direction: column;
 }
+
+
+.span-01 {
+
+text-transform: uppercase;
+background-color: #29ffc9;
+font-size: 20px;
+}
+
 
 footer {
 background-color:black;
@@ -177,4 +204,4 @@ flex-direction: column;
 align-items: center;
 }
 
- 
+
