@@ -27,6 +27,7 @@ align-items: center;
 text-align: center;
 gap: 10px;
  text-decoration: none; 
+ font-size: 20px;
 }
 
 
@@ -38,13 +39,15 @@ font-size: 20px;
 }
 
 .section-00 {
-    background-image: url(crocus-4862657_1280.jpg);
+    background-image: url(girl-8351533_1280.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 150px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-00 p {
@@ -55,6 +58,15 @@ color: black;
 background-color: rgba(128, 128, 128, 0.411);
 padding: 10px;
 
+}
+
+.section-00 button{
+
+padding: 5px;
+height: 50px;
+width: 400px;
+font-size: 25px;
+background-color: #f06d61;
 }
 
 .div-01-header img {
@@ -78,6 +90,7 @@ align-items: center;
     align-items: center;
     padding: 50px;
     flex-direction: column;
+    
 }
 
 
@@ -136,7 +149,7 @@ width: 55px;
     background-image: url(plum-3585228_1280.jpg);
     padding: 5px;
     width: 350px;
-    height: 450px;
+    height: 400px;
     display: flex;
     justify-content: center;
     gap: 5px;
@@ -147,7 +160,7 @@ width: 55px;
 .div-02-section-03 {
     background-image: url(flowers-1374297_1280.jpg);
     width: 350px;
-    height: 460px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,7 +170,7 @@ width: 55px;
 .div-03-section-03 {
     background-image: url(cactus-5203831_1280.jpg);
     width: 350px;
-    height: 460px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
