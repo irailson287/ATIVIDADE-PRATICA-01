@@ -12,6 +12,25 @@ font-size: 30px;
 font-size: 80px;
 
 }
+.div-01-home-header ul{
+
+display: flex;
+gap: 20px;
+}
+
+
+
+.ul-01 li{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 10px;
+ text-decoration: none; 
+}
+
+
+
 .div-02-header i {
 
 font-size: 20px;
@@ -44,7 +63,13 @@ padding: 10px;
     background-color: #29ffc9;
 }
 
-.div-02-header {}
+.div-02-header {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
 
 .section-01 {
     background-color: #88d3ab;
