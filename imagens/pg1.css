@@ -1,70 +1,110 @@
-header{
-background-image: url(girl-8351533_1280.jpg);
-width: ;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 40px;
-background-position: center;
-background-attachment: fixed;
+header {
+    background-color:#8afd9f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
 font-size: 30px;
-color:#29ffc9;
+   
 }
-.div-01-header img {
 
-width: 120px;
-background-color: #29ffc9;
+.div-01-header {
+font-size: 80px;
+
 }
-.div-02-header {
+.div-02-header i {
+
+font-size: 20px;
+
+}
+
+.section-00 {
+    background-image: url(crocus-4862657_1280.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
     
 }
 
-.section-01{
- background-color: #88d3ab;
-display: flex;
-justify-content: center;
+.section-00 p {
+text-align: center;
+font-size: 40px;
+text-transform: uppercase;
+color: black;
+background-color: rgba(128, 128, 128, 0.411);
+padding: 10px;
 
 }
 
+.div-01-header img {
+
+    width: 120px;
+    background-color: #29ffc9;
+}
+
+.div-02-header {}
+
+.section-01 {
+    background-color: #88d3ab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+}
+
+
+
 .section-1-1 {
-background-color:  #88d3ab;
-display: flex;
-justify-content: center;
-align-items: center;
+    background-color: #88d3ab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 
 .section-1-1 button:hover {
 
 
-background-color:#29ffc9;
-box-shadow: 5px 5px 10px;
-transition: 0.8s;
+    background-color: #29ffc9;
+    box-shadow: 5px 5px 10px;
+    transition: 0.8s;
 }
 
 .section-02 {
 
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 
 
 
 
-.div-01-section-01{
- background-color: #88d3ab;
-width:500px ;
-height: 50px; ;
+.div-01-section-01 {
+    background-color: #88d3ab;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+}
+
+.div-01-section-01-img {
+width: 55px;
+
+
 }
 
 .section-03 {
-display: flex;
-justify-content: center;
-align-items: center;
-gap:55px;
-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    color: beige;
 }
 
 .div-01-section-03 {
@@ -74,42 +114,42 @@ color: beige;
     height: 450px;
     display: flex;
     justify-content: center;
-gap: 5px;
-align-items: center;
-border-radius: 40px;
+    gap: 5px;
+    align-items: center;
+    border-radius: 40px;
 }
 
 .div-02-section-03 {
-background-image: url(flowers-1374297_1280.jpg);  
-width: 350px; 
-height: 460px; 
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 40px;
+    background-image: url(flowers-1374297_1280.jpg);
+    width: 350px;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
 }
 
 .div-03-section-03 {
-background-image: url(cactus-5203831_1280.jpg);
-width: 350px; 
-height: 460px; 
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 40px;
+    background-image: url(cactus-5203831_1280.jpg);
+    width: 350px;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
 }
 
 .div-00-section-04 {
- background-image: url(kauri-76_1280.jpg); 
- width: 350px; 
-height: 400px; 
-display: flex;
-align-items: center;
-justify-content: center;
-background-repeat: no-repeat;  
-background-position: center;
-background-size: cover;
-border-radius: 40px;
+    background-image: url(kauri-76_1280.jpg);
+    width: 350px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
 }
 
 
@@ -120,17 +160,18 @@ border-radius: 40px;
 
 .section-04 {
 
-display: flex;    
-justify-content: center;
-align-items: center;
-gap: 55px;
-color: beige;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 55px;
 }
 
 .section-04 h3 {
 
     font-size: 40px;
-} 
+}
 
 
 
@@ -138,126 +179,126 @@ color: beige;
 .div-01-section-04 {
 
 
-background-image: url(gardens-mexico-2073360_1280.jpg);
-width: 350px; 
-height: 400px; 
-display: flex;
-align-items: center;
-justify-content: center;
-background-repeat: no-repeat;  
-background-position: center;
-background-size: cover;
-font-size: 50px;
-border-radius: 40px;
+    background-image: url(gardens-mexico-2073360_1280.jpg);
+    width: 350px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 50px;
+    border-radius: 40px;
 }
 
 .div-02-section-04 {
 
-background-image: url(pexels-teona-swift-6913399.jpg);
-width: 350px; 
-height: 400px; 
-display: flex;
-align-items: center;
-justify-content: center;
-background-repeat: no-repeat;  
-background-position: center;
-background-size: cover;
-font-size: 50px;
-border-radius: 40px;
+    background-image: url(pexels-teona-swift-6913399.jpg);
+    width: 350px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 50px;
+    border-radius: 40px;
 }
 
 .section-05 {
 
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .inp-cdt-section-05 {
 
-background-color:#29ffc9;
+    background-color: #29ffc9;
 
 
 
 }
 
-.div-02-section-05{
+.div-02-section-05 {
 
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .span-01 {
 
 
-color: #29ffc9;
-font-size: 20px;
+    color: #29ffc9;
+    font-size: 20px;
 }
 
-.span-01:hover{
+.span-01:hover {
 
-background-color: black;
-text-transform: uppercase;
-transition: 0.8s;
+    background-color: black;
+    text-transform: uppercase;
+    transition: 0.8s;
 
 }
 
 .div-01-section-03:hover {
 
-    background-color:;
-box-shadow: 15px 15px 30px #29ffc9;
-transition:0.8s ;
+    background-color: ;
+    box-shadow: 15px 15px 30px #29ffc9;
+    transition: 0.8s;
 }
 
 .div-02-section-03:hover {
 
-    background-color:;
-box-shadow: 15px 15px 30px #29ffc9;
-transition:0.8s ;
-}
-.div-03-section-03:hover {
-       background-color:;
-box-shadow: 15px 15px 30px #29ffc9;
-transition:0.8s ;
+    background-color: ;
+    box-shadow: 15px 15px 30px #29ffc9;
+    transition: 0.8s;
 }
 
-.div-00-section-04 :hover{
-  background-color:;
-box-shadow: 15px 15px 30px #29ffc9;
-transition:0.8s ;
+.div-03-section-03:hover {
+    background-color: ;
+    box-shadow: 15px 15px 30px #29ffc9;
+    transition: 0.8s;
+}
+
+.div-00-section-04 :hover {
+    background-color: ;
+    box-shadow: 15px 15px 30px #29ffc9;
+    transition: 0.8s;
 }
 
 .div-01-section-04 :hover {
-  background-color:;
-box-shadow: 15px 15px 30px #29ffc9;
-transition:0.8s ;
+    background-color: ;
+    box-shadow: 15px 15px 30px #29ffc9;
+    transition: 0.8s;
 
 }
+
 .div-02-section-04 :hover {
-      background-color:;
-box-shadow: 15px 15px 30px #29ffc9;
-transition:0.8s ;
+    background-color: ;
+    box-shadow: 15px 15px 30px #29ffc9;
+    transition: 0.8s;
 }
 
 
 footer {
-background-color:black;
-color:white;
-display: flex;
-justify-content: center;
-gap: 55px;
-align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    align-items: center;
 
 }
 
 .div-01-footer {
 
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-
-
