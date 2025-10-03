@@ -15,7 +15,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 5px;
-align-items: center;
+
 }
 
 .section-03 img {
@@ -47,6 +47,42 @@ height: 40px;
 
 
 }
+
+.section-05 {
+
+  display: flex;  
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+.section-05 img {
+
+padding: 5px;
+width:400px ;
+height: 400px;
+}
+
+
+.section-06 {
+
+display: flex;  
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+.section-06 img {
+
+padding: 5px;
+width:400px ;
+height: 400px;
+
+
+}
+
 
 
 
