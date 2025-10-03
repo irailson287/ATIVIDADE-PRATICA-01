@@ -1,0 +1,53 @@
+.section-01 {
+background-image:url(park-3714830_1280.jpg);
+padding: 50px;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+font-size: 50px;
+color: white;
+background-size: cover;
+}
+
+.section-03 {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+align-items: center;
+}
+
+.section-03 img {
+padding: 5px;
+width:400px ;
+height: 400px;
+
+
+}
+
+.div-02-section-03 {}
+.div-03-section-03 {}
+
+.div-01-section-04 {
+padding: 5px;
+width:40px ;
+height: 40px;
+
+}
+
+
+.div-02-section-04 {
+
+
+}
+
+.div-03-section-04 {
+
+
+
+}
+
+
+
+

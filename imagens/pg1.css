@@ -30,6 +30,9 @@ gap: 10px;
  font-size: 20px;
 }
 
+.li-menu {
+    text-decoration: none;
+}
 
 
 .div-02-header i {
@@ -64,9 +67,9 @@ padding: 10px;
 
 padding: 5px;
 height: 50px;
-width: 400px;
+width: 300px;
 font-size: 25px;
-background-color: #f06d61;
+background-color: rgba(128, 128, 128, 0.411);
 }
 
 .div-01-header img {
@@ -89,7 +92,7 @@ align-items: center;
     justify-content: center;
     align-items: center;
     padding: 50px;
-    flex-direction: column;
+   flex-direction: column;
     
 }
 
@@ -135,6 +138,12 @@ align-items: center;
 width: 55px;
 
 
+}
+.div-input input {
+   padding: 5px; 
+   width: 400px;
+   height: ;
+   border-radius: 15px;
 }
 
 .section-03 {
@@ -204,6 +213,7 @@ width: 55px;
     align-items: center;
     padding: 50px;
     gap: 55px;
+    color: white;
 }
 
 .section-04 h3 {
@@ -228,6 +238,7 @@ width: 55px;
     background-size: cover;
     font-size: 50px;
     border-radius: 40px;
+    color: black;
 }
 
 .div-02-section-04 {
