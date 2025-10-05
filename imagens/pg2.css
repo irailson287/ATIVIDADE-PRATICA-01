@@ -5,14 +5,32 @@ background-position: center;
 background-repeat: no-repeat;
 display: flex;
 justify-content: center;
+align-items: center;
 font-size: 50px;
 color: white;
 background-size: cover;
+flex-direction: column;
 }
+
+.div-02-section-01 button {
+font-size: 18px;
+width: 70px;
+background-color:  rgba(128, 128, 128, 0.411);
+padding: 5px;
+ border-radius: 10px;
+}
+
+.div-02-section-01 button:hover{
+  background-color:chartreuse ;
+ transition: 0.8s;
+
+}
+
+
 
 .section-03 {
 display: flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
 gap: 5px;
 }
@@ -23,9 +41,16 @@ width:400px ;
 height: 400px;
 }
 
+.section-03 div {
+  display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
 .section-003 {
 display: flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
 gap: 5px;
 }
@@ -36,14 +61,19 @@ width:400px ;
 height: 400px;
 }
 
+.section-003 div {
+   display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
 .section-02 h3 {
 
 display: flex;
 text-align: center;
 justify-content: center;
 font-size: 40px;
-
-
 }
 
 .section-04 h2 {
@@ -53,39 +83,40 @@ justify-content: center;
 font-size: 40px;
 }
 
-
-
-
 .section-05 {
-
-  display: flex;  
+ display: flex;  
 justify-content: space-between;
 align-items: center;
-
 }
 
-
 .section-05 img {
-
 padding: 5px;
 width:400px ;
 height: 400px;
 }
 
+.section-05 div {
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
 
 .section-06 {
-
 display: flex;  
 justify-content: space-between;
 align-items: center;
 }
 
-
 .section-06 img {
-
 padding: 5px;
 width:400px ;
 height: 400px;
+}
+
+.section-06 div {
+  display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .section-07 h2 {
@@ -93,9 +124,7 @@ display: flex;
 text-align: center;
 justify-content: center;
 font-size: 40px;
-
 }
-
 
 .section-08 {
 display: flex;  
@@ -103,11 +132,16 @@ justify-content: space-between;
 align-items: center;
 }
 
-
 .section-08 img {
 padding: 5px;
 width:400px ;
 height: 400px;
+}
+
+.section-08 div {
+  display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .section-09 {
@@ -120,6 +154,12 @@ align-items: center;
 padding: 5px;
 width:400px ;
 height: 400px;
+}
+
+.section-09 div {
+  display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .section-10 {
